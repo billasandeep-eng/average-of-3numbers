@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average of Three Numbers</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .box {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px gray;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        input {
+            padding: 10px;
+            width: 220px;
+            margin: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 25px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #n4 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>AVERAGE OF THREE NUMBERS</h1>
+
+        <input type="text" placeholder="Enter Number 1" id="n1">
+        <br>
+
+        <input type="text" placeholder="Enter Number 2" id="n2">
+        <br>
+
+        <input type="text" placeholder="Enter Number 3" id="n3">
+        <br>
+
+        <input type="text" placeholder="AVERAGE" id="n4" readonly>
+        <br>
+
+        <button onclick="calculate()">AVERAGE</button>
+    </div>
+    <script src="logics.js"></script>
+</body>
+</html>
